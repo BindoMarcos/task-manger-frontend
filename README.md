@@ -95,7 +95,7 @@ Este repositorio contiene la aplicación frontend de un “Gestor de Tareas” d
    http://localhost:5173
    ```
 
-> **Nota:** Asegúrate de que el backend (Java 21) esté corriendo y exponiendo los endpoints `/auth/login` y `/tasks` en la URL definida en `VITE_API_BASE_URL`.
+> **Nota:** Asegúrate de que el backend (Java 21) esté corriendo y exponiendo los endpoints `/auth/login` y `/tareas` en la URL definida en `VITE_API_BASE_URL`.
 
 ---
 
