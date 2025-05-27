@@ -41,10 +41,10 @@ export default function TaskForm() {
       <TextField fullWidth label="Título" value={titulo} onChange={e => setTitulo(e.target.value)} margin="normal" />
       <TextField fullWidth label="Descripción" value={descripcion} onChange={e => setDescripcion(e.target.value)} margin="normal" />
       <TextField fullWidth type="date" value={fecha} onChange={e => setFecha(e.target.value)} margin="normal" />
-      <FormControlLabel
+      { id && <FormControlLabel
         control={<Checkbox checked={completada} onChange={e => setCompletada(e.target.checked)} />}
         label="Completada"
-      />
+      />}
       <Button variant="contained" onClick={handleSubmit}>Guardar</Button>
     </Container>
   );
